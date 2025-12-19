@@ -8,6 +8,8 @@
 
 // Start coding here
 
+const exponentialNumber = (numbers) => numbers.map((number) => number * number);
+
 const numbers1 = [3, 5, 10, 12];
 console.log(exponentialNumber(numbers1)); // [ 9, 25, 100, 144 ]
 
